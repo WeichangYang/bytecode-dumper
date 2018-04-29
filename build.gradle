@@ -1,0 +1,11 @@
+apply plugin: 'java'
+
+jar {
+  manifest {
+    attributes 'Premain-Class': 'com.wyang.bytecodedumper.AgentMain'
+  }
+}
+
+subprojects {
+  version = '1.0.0'
+}

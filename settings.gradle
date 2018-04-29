@@ -1,0 +1,3 @@
+rootProject.name = 'bytecode-dumper'
+
+include 'sample-app'
